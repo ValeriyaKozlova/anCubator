@@ -23,6 +23,11 @@ body {
   font-weight: bold;
 }
 
+#languages a #engFlag {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 #logo {
   text-align: center;
 }
@@ -143,9 +148,17 @@ button {
 
 .offer .info span {
   font-size: 13px;
+  font-weight: 400;
   color: #676767;
   padding: 0 10px;
   display: inline-block;
+}
+
+.offer .info .euro {
+  color: #666666;
+  opacity: .5;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .offer ul {
@@ -216,6 +229,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
+  color: #2E8DFA;
 }
 
 footer hr {
