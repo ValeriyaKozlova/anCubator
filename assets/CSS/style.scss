@@ -97,11 +97,14 @@ button {
     }
 }
 
+//CLIENTS
 #clients {
     div {
         margin: auto;
     }
 }
+
+//OFFERS
 .offer {
     border: 2px dashed $offerBorder;
     border-radius: 10px;
@@ -139,7 +142,6 @@ button {
             font-size: 13px;
             font-weight: 400;
             color: $offerTvaColor;
-            padding: 0 10px;
             display: inline-block;
         }
         .euro {
