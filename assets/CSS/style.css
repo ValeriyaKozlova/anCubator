@@ -287,6 +287,7 @@ label {
   overflow: hidden;
   position: relative;
   border: none;
+  outline: none;
 }
 
 .video-popUp {
@@ -294,6 +295,7 @@ label {
   top: -50%;
   left: 0%;
   border: none;
+  outline: none;
 }
 
 #contact p {
