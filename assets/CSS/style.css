@@ -286,7 +286,7 @@ label {
   height: 230px;
   overflow: hidden;
   position: relative;
-  border: none;
+  border: 1px solid #fff;
   outline: none;
 }
 
