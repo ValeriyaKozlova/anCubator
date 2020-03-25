@@ -7,7 +7,7 @@ $offerFontColor: #666666;
 $offerTvaColor: #676767;
 $footerColor: #0a0c3e;
 $hoverColor: #2e8dfa;
-$colorFontPopUp: #EC1C24;
+$colorFontPopUp: #ec1c24;
 
 body {
   font-family: "Roboto", sans-serif !important;
@@ -208,7 +208,7 @@ label {
   font-style: italic;
   font-size: 18px;
   transform: translateY(20px);
-  transition: all .3s;
+  transition: all 0.3s;
   margin: 10px;
 }
 .label-focus {
@@ -223,8 +223,8 @@ label {
   }
 }
 .modal-header {
-    border: none;
-    padding: 0;
+  border: none;
+  padding: 0;
   .modal-title {
     font-size: 45px;
     font-weight: bold;
@@ -240,10 +240,10 @@ label {
   padding: 0;
 }
 .popUP {
-    color: $colorFontPopUp;
-    font-size: 20px;
-    border-bottom: 4px solid $colorFontPopUp;
-    margin: 10px;
+  color: $colorFontPopUp;
+  font-size: 20px;
+  border-bottom: 4px solid $colorFontPopUp;
+  margin: 10px;
 }
 .buttonPopUp {
   width: 184px;
@@ -251,8 +251,18 @@ label {
 .prototypeText {
   font-size: 18;
   font-style: italic;
-  opacity: .6;
+  opacity: 0.6;
   margin: 0;
+}
+.video {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+.video-popUp {
+  position: absolute;
+  top: -50%;
+  left: 0%;
 }
 //CONTACT
 #contact {
@@ -264,6 +274,7 @@ label {
     margin-bottom: 0;
   }
 }
+
 //FOOTER
 footer {
   margin-top: 100px;
@@ -290,22 +301,25 @@ footer {
     font-size: 12px;
   }
 }
-.video {
-    height: 230px;
-    overflow: hidden;
-    position: relative;
-}
-.video-popUp {
-  position: absolute;
-  top: -50%;
-  left: 0%;
-}
+
 //MEDIA
 @media screen and (max-width: 576px) {
   .headings,
   .thin,
   .bold {
     font-size: 2em;
+  }
+  .video {
+    height: 130px;
+  }
+  .modal-header {
+    .modal-title {
+      font-size: 35px;
+    }
+  }
+  .popUP {
+    font-size: 15px;
+    border-bottom: 2px solid $colorFontPopUp;
   }
 }
 

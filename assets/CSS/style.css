@@ -227,8 +227,8 @@ label {
   font-size: 18px;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   margin: 10px;
 }
 
@@ -265,9 +265,9 @@ label {
 }
 
 .popUP {
-  color: #EC1C24;
+  color: #ec1c24;
   font-size: 20px;
-  border-bottom: 4px solid #EC1C24;
+  border-bottom: 4px solid #ec1c24;
   margin: 10px;
 }
 
@@ -278,8 +278,20 @@ label {
 .prototypeText {
   font-size: 18;
   font-style: italic;
-  opacity: .6;
+  opacity: 0.6;
   margin: 0;
+}
+
+.video {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-popUp {
+  position: absolute;
+  top: -50%;
+  left: 0%;
 }
 
 #contact p {
@@ -323,23 +335,21 @@ footer p {
   font-size: 12px;
 }
 
-.video {
-  height: 230px;
-  overflow: hidden;
-  position: relative;
-}
-
-.video-popUp {
-  position: absolute;
-  top: -50%;
-  left: 0%;
-}
-
 @media screen and (max-width: 576px) {
   .headings,
   .thin,
   .bold {
     font-size: 2em;
+  }
+  .video {
+    height: 130px;
+  }
+  .modal-header .modal-title {
+    font-size: 35px;
+  }
+  .popUP {
+    font-size: 15px;
+    border-bottom: 2px solid #ec1c24;
   }
 }
 
