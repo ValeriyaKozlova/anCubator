@@ -258,11 +258,13 @@ label {
   height: 230px;
   overflow: hidden;
   position: relative;
+  border: none;
 }
 .video-popUp {
   position: absolute;
   top: -50%;
   left: 0%;
+  border: none;
 }
 //CONTACT
 #contact {
