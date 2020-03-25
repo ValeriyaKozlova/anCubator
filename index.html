@@ -77,7 +77,12 @@
           </p>
           <p>
             <span class="thin">into</span>
-            <span class="bold">business<img src="assets/img/or.png" alt="word 'or'" >product</span>
+            <span class="bold"
+              >business<img
+                src="assets/img/or.png"
+                alt="word 'or'"
+              />product</span
+            >
           </p>
           <img src="assets/img/rocket.svg" class="img-fluid" alt="rocket" />
         </div>
@@ -156,12 +161,157 @@
               <h1>Value Proposition</h1>
               <span>From Idea to Value Proposition</span>
               <p class="time">Time process 1-2 months</p>
-              <button class="mb-2 buttonContact">Test my Idea</button>
+              <button
+                class="mb-2 buttonContact"
+                data-toggle="modal"
+                data-target="#testMyIdea"
+              >
+                Test my Idea
+              </button>
             </div>
             <ul class="mt-2">
               <li><span>Market Analysis</span></li>
               <li><span>Value Proposition</span></li>
             </ul>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="testMyIdea"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="testMyIdeaTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="d-flex justify-content-end row close">
+                  <button
+                    type="button"
+                    class="close col-2"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-header row">
+                  <h5 class="modal-title col-12 text-center">
+                    Test my idea
+                  </h5>
+                </div>
+                <div class="video row justify-content-center">
+                  <video loop autoplay class="col-12 video-popUp">
+                    <source src="assets/img/testMyIdea.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="popUP row justify-content-center">
+                  <p class="col-10">
+                    I want to validate my idea / build new one
+                  </p>
+                </div>
+                <div class="modal-body">
+                  <!-- Begin Mailchimp Signup Form -->
+                  <div id="mc_embed_signup" class="row justify-content-center">
+                    <form
+                      action="https://ancubator.us19.list-manage.com/subscribe/post?u=c745d99bc34e51044ea6b70b7&amp;id=25537c8a8d"
+                      method="post"
+                      name="mc-embedded-subscribe-form"
+                      class="validate form-group col-12 col-lg-10"
+                      novalidate
+                    >
+                      <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL"
+                            >Email Address <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="email"
+                            value=""
+                            name="EMAIL"
+                            class="required email form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-FNAME"
+                            >First Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="FNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-LNAME"
+                            >Last Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="LNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group size1of2">
+                          <label for="mce-PHONE"
+                            >Phone Number <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="PHONE"
+                            class="required form-control"
+                            value=""
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-COMPANY"
+                            >Company Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="COMPANY"
+                            class="required form-control"
+                          />
+                        </div>
+                        <input type="hidden" name="REQUEST" value="IDEA" />
+                        <div id="mce-responses" class="clear">
+                          <div class="response" style="display:none"></div>
+                          <div class="response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div
+                          style="position: absolute; left: -5000px;"
+                          aria-hidden="true"
+                        >
+                          <input
+                            type="text"
+                            name="b_c745d99bc34e51044ea6b70b7_25537c8a8d"
+                            tabindex="-1"
+                            value=""
+                          />
+                        </div>
+                        <div class="indicates-required">
+                          <span class="asterisk">*</span> indicates required
+                        </div>
+                        <div class="clear text-center mb-3">
+                          <input
+                            type="submit"
+                            value="Contact me"
+                            name="subscribe"
+                            class="button buttonContact buttonPopUp"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--End mc_embed_signup-->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-3 mb-2 mt-2">
@@ -174,13 +324,164 @@
               <h1>Prototype Development</h1>
               <span>Mobile App, Web Services or Hardware</span>
               <p class="time">Time process 3-6 months</p>
-              <button class="mb-2 buttonContact">Build me a product</button>
+              <button
+                class="mb-2 buttonContact"
+                data-toggle="modal"
+                data-target="#prototype"
+              >
+                Build me a product
+              </button>
             </div>
             <ul class="mt-2">
               <li><span>Value Proposition</span></li>
               <li><span>Product Development</span></li>
               <li><span>MVP</span></li>
             </ul>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="prototype"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="prototypeTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="d-flex justify-content-end row close">
+                  <button
+                    type="button"
+                    class="close col-2"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-header row">
+                  <h5 class="modal-title col-12 text-center">
+                    I need a prototype
+                  </h5>
+                </div>
+                <div class="video row justify-content-center">
+                  <video loop autoplay class="col-12 video-popUp">
+                    <source src="assets/img/prototype.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="popUP row justify-content-center">
+                  <p class="col-10">
+                    I want to build or to improve a product
+                  </p>
+                </div>
+                <div class="modal-body">
+                  <!-- Begin Mailchimp Signup Form -->
+                  <div id="mc_embed_signup" class="row justify-content-center">
+                    <form
+                      action="https://ancubator.us19.list-manage.com/subscribe/post?u=c745d99bc34e51044ea6b70b7&amp;id=25537c8a8d"
+                      method="post"
+                      name="mc-embedded-subscribe-form"
+                      class="validate form-group col-12 col-lg-10"
+                      novalidate
+                    >
+                      <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL"
+                            >Email Address <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="email"
+                            value=""
+                            name="EMAIL"
+                            class="required email form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-FNAME"
+                            >First Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="FNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-LNAME"
+                            >Last Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="LNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group size1of2">
+                          <label for="mce-PHONE"
+                            >Phone Number <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="PHONE"
+                            class="required form-control"
+                            value=""
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-COMPANY"
+                            >Company Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="COMPANY"
+                            class="required form-control"
+                          />
+                        </div>
+                        <input type="hidden" name="REQUEST" value="PROTOTYPE" />
+                        <div id="mce-responses" class="clear">
+                          <div class="response" style="display:none"></div>
+                          <div class="response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div
+                          style="position: absolute; left: -5000px;"
+                          aria-hidden="true"
+                        >
+                          <input
+                            type="text"
+                            name="b_c745d99bc34e51044ea6b70b7_25537c8a8d"
+                            tabindex="-1"
+                            value=""
+                          />
+                        </div>
+                        <div class="indicates-required">
+                          <span class="asterisk">*</span> indicates required
+                        </div>
+                        <div class="clear text-center">
+                          <input
+                            type="submit"
+                            value="Build me a product"
+                            name="subscribe"
+                            class="button buttonContact buttonPopUp"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--End mc_embed_signup-->
+                  <div class="row justify-content-start">
+                    <div class="col-12 p-0">
+                      <p class="prototypeText">SaaS: AI, Blockchain, Web, Mobile...</p>  
+                      <p class="prototypeText">Hardware: Electronics, Robotics, Mechanics...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-3 mb-2 mt-2">
@@ -193,7 +494,8 @@
               <h1>StartUp Development</h1>
               <span>From Idea to a Funtional Product and First customers</span>
               <p class="time">Time process 1-6 months</p>
-              <button class="mb-2 buttonContact">Build me a business</button>
+              <button class="mb-2 buttonContact" data-toggle="modal"
+              data-target="#startUp" >Build me a business</button>
             </div>
             <ul class="mt-2">
               <li><span>Market Analysis</span></li>
@@ -217,6 +519,145 @@
                 >
               </li>
             </ul>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="startUp"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="startUpTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="d-flex justify-content-end row close">
+                  <button
+                    type="button"
+                    class="close col-2"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-header row">
+                  <h5 class="modal-title col-12 text-center">
+                    Build me a startup
+                  </h5>
+                </div>
+                <div class="video row justify-content-center">
+                  <video loop autoplay class="col-12 video-popUp">
+                    <source src="assets/img/business.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="popUP row justify-content-center">
+                  <p class="col-10">
+                    I want to build a new business
+                  </p>
+                </div>
+                <div class="modal-body">
+                  <!-- Begin Mailchimp Signup Form -->
+                  <div id="mc_embed_signup" class="row justify-content-center">
+                    <form
+                      action="https://ancubator.us19.list-manage.com/subscribe/post?u=c745d99bc34e51044ea6b70b7&amp;id=25537c8a8d"
+                      method="post"
+                      name="mc-embedded-subscribe-form"
+                      class="validate form-group col-12 col-lg-10"
+                      novalidate
+                    >
+                      <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL"
+                            >Email Address <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="email"
+                            value=""
+                            name="EMAIL"
+                            class="required email form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-FNAME"
+                            >First Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="FNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-LNAME"
+                            >Last Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="LNAME"
+                            class="required form-control"
+                          />
+                        </div>
+                        <div class="mc-field-group size1of2">
+                          <label for="mce-PHONE"
+                            >Phone Number <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="PHONE"
+                            class="required form-control"
+                            value=""
+                          />
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-COMPANY"
+                            >Company Name <span class="asterisk">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            value=""
+                            name="COMPANY"
+                            class="required form-control"
+                          />
+                        </div>
+                        <input type="hidden" name="REQUEST" value="STARTUP" />
+                        <div id="mce-responses" class="clear">
+                          <div class="response" style="display:none"></div>
+                          <div class="response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div
+                          style="position: absolute; left: -5000px;"
+                          aria-hidden="true"
+                        >
+                          <input
+                            type="text"
+                            name="b_c745d99bc34e51044ea6b70b7_25537c8a8d"
+                            tabindex="-1"
+                            value=""
+                          />
+                        </div>
+                        <div class="indicates-required">
+                          <span class="asterisk">*</span> indicates required
+                        </div>
+                        <div class="clear text-center">
+                          <input
+                            type="submit"
+                            value="Build me a business"
+                            name="subscribe"
+                            class="button buttonContact buttonPopUp"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--End mc_embed_signup-->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-8 col-lg-6 d-none d-md-block" id="notice">
@@ -253,132 +694,117 @@
       </div>
       <!-- CONTACT -->
       <div class="row justify-content-center " id="contact">
-        <div class="col-12">
+        <div class="col-10">
           <h1 class="headings">Contact us</h1>
           <p class="text-center">
-            Just tell us your idea and we will build a business of it for
-            you!
+            Just tell us your idea and we will build a business of it for you!
           </p>
         </div>
-          <!-- Begin Mailchimp Signup Form -->
-          <div id="mc_embed_signup" class="col-12 col-lg-4 mt-5">
-            <form
-              action="https://ancubator.us19.list-manage.com/subscribe/post?u=c745d99bc34e51044ea6b70b7&amp;id=25537c8a8d"
-              method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              class="validate form-group"
-              target="_blank"
-              novalidate
-            >
-              <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group">
-                  <label for="mce-EMAIL"
-                    >Email Address <span class="asterisk">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    value=""
-                    name="EMAIL"
-                    class="required email form-control"
-                    id="mce-EMAIL"
-                  />
-                </div>
-                <div class="mc-field-group">
-                  <label for="mce-FNAME"
-                    >First Name <span class="asterisk">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    value=""
-                    name="FNAME"
-                    class="required form-control"
-                    id="mce-FNAME"
-                  />
-                </div>
-                <div class="mc-field-group">
-                  <label for="mce-LNAME"
-                    >Last Name <span class="asterisk">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    value=""
-                    name="LNAME"
-                    class="required form-control"
-                    id="mce-LNAME"
-                  />
-                </div>
-                <div class="mc-field-group size1of2">
-                  <label for="mce-PHONE"
-                    >Phone Number <span class="asterisk">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="PHONE"
-                    class="required form-control"
-                    value=""
-                    id="mce-PHONE"
-                  />
-                </div>
-                <div class="mc-field-group">
-                  <label for="mce-COMPANY"
-                    >Company Name <span class="asterisk">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    value=""
-                    name="COMPANY"
-                    class="required form-control"
-                    id="mce-COMPANY"
-                  />
-                </div>
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup" class="col-12 col-lg-4 mt-5">
+          <form
+            action="https://ancubator.us19.list-manage.com/subscribe/post?u=c745d99bc34e51044ea6b70b7&amp;id=25537c8a8d"
+            method="post"
+            name="mc-embedded-subscribe-form"
+            class="validate form-group"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span>
+                </label>
                 <input
-                    type="hidden"
-                    name="REQUEST"
-                    value="CONTACT"
-                  />
-                <div id="mce-responses" class="clear">
-                  <div
-                    class="response"
-                    id="mce-error-response"
-                    style="display:none"
-                  ></div>
-                  <div
-                    class="response"
-                    id="mce-success-response"
-                    style="display:none"
-                  ></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div
-                  style="position: absolute; left: -5000px;"
-                  aria-hidden="true"
-                >
-                  <input
-                    type="text"
-                    name="b_c745d99bc34e51044ea6b70b7_25537c8a8d"
-                    tabindex="-1"
-                    value=""
-                  />
-                </div>
-                <div class="indicates-required">
-                  <span class="asterisk">*</span> indicates required
-                </div>
-                <div class="clear text-center">
-                  <input
-                    type="submit"
-                    value="Contact me"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
-                    class="button buttonContact"
-                  />
-                </div>
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email form-control"
+                />
               </div>
-            </form>
-          </div>
+              <div class="mc-field-group">
+                <label for="mce-FNAME"
+                  >First Name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="FNAME"
+                  class="required form-control"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-LNAME"
+                  >Last Name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="LNAME"
+                  class="required form-control"
+                />
+              </div>
+              <div class="mc-field-group size1of2">
+                <label for="mce-PHONE"
+                  >Phone Number <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  name="PHONE"
+                  class="required form-control"
+                  value=""
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-COMPANY"
+                  >Company Name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="COMPANY"
+                  class="required form-control"
+                />
+              </div>
+              <input type="hidden" name="REQUEST" value="CONTACT" />
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  style="display:none"
+                ></div>
+                <div
+                  class="response"
+                  style="display:none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_c745d99bc34e51044ea6b70b7_25537c8a8d"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="clear text-center">
+                <input
+                  type="submit"
+                  value="Contact me"
+                  name="subscribe"
+                  class="button buttonContact buttonPopUp"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
 
-          <!--End mc_embed_signup-->
-          <!-- <div class="col-12 col-lg-6">
+        <!--End mc_embed_signup-->
+        <!-- <div class="col-12 col-lg-6">
             <img
             class="img-fluid"
             src="assets/img/contact.png"
@@ -490,5 +916,9 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!-- Soft scroll jQuery for all browsers -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Script perso -->
+    <script src="assets/JS/script.js"></script>
   </body>
 </html>

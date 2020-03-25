@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .container {
@@ -38,8 +38,8 @@ body {
 
 .button,
 button {
-  color: #FFF;
-  background-color: #1E6FF1;
+  color: #fff;
+  background-color: #1e6ff1;
   border: none;
   width: 100%;
   padding: 2rem;
@@ -52,14 +52,14 @@ button {
 .button:hover,
 button:hover {
   text-decoration: none;
-  color: #2E8DFA;
+  color: #2e8dfa;
 }
 
 .headings,
 .thin,
 .bold {
   font-size: 5em;
-  color: #FFF;
+  color: #fff;
 }
 
 .bold {
@@ -97,7 +97,7 @@ button:hover {
 }
 
 #containerRocket {
-  background-color: #1E6FF1;
+  background-color: #1e6ff1;
   padding: 0;
 }
 
@@ -121,7 +121,7 @@ button:hover {
 }
 
 .offer .info {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 10px;
 }
 
@@ -131,7 +131,7 @@ button:hover {
 
 .offer .info .time {
   text-align: center;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 10px;
   border-radius: 10px;
   margin-top: 3rem;
@@ -160,7 +160,7 @@ button:hover {
 
 .offer .info .euro {
   color: #666666;
-  opacity: .5;
+  opacity: 0.5;
   font-weight: 400;
   font-size: 24px;
 }
@@ -170,7 +170,7 @@ button:hover {
 }
 
 .offer ul li {
-  color: #1E6FF1;
+  color: #1e6ff1;
 }
 
 .offer ul li span {
@@ -196,14 +196,6 @@ button:hover {
   margin-bottom: 0;
 }
 
-.buttonContact {
-  height: 50px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 0;
-}
-
 .embed-responsive-item {
   position: relative !important;
 }
@@ -216,6 +208,80 @@ button:hover {
   overflow: visible !important;
 }
 
+.modal-content {
+  border-radius: 70px;
+  padding: 1rem;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin: 0;
+}
+
+label {
+  color: #000;
+  opacity: 0.3;
+  font-style: italic;
+  font-size: 18px;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 10px;
+}
+
+.label-focus {
+  color: #1e6ff1;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.close span {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.modal-header {
+  border: none;
+  padding: 0;
+}
+
+.modal-header .modal-title {
+  font-size: 45px;
+  font-weight: bold;
+  color: #1e6ff1;
+  padding: 0 16px;
+}
+
+.buttonContact {
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.popUP {
+  color: #EC1C24;
+  font-size: 20px;
+  border-bottom: 4px solid #EC1C24;
+  margin: 10px;
+}
+
+.buttonPopUp {
+  width: 184px;
+}
+
+.prototypeText {
+  font-size: 18;
+  font-style: italic;
+  opacity: .6;
+  margin: 0;
+}
+
 #contact p {
   font-weight: 100;
   font-size: 25px;
@@ -225,29 +291,10 @@ button:hover {
   margin-bottom: 0;
 }
 
-#contact .form-control {
-  border: none;
-  border-bottom: 1px solid #000;
-  border-radius: 0;
-  margin: 10px;
-}
-
-#contact label {
-  color: #000;
-  opacity: .3;
-  font-style: italic;
-  font-size: 18px;
-  margin: 0 10px;
-}
-
-#contact .buttonContact {
-  width: 184px;
-}
-
 footer {
   margin-top: 100px;
-  background-color: #0A0C3E;
-  color: #FFF;
+  background-color: #0a0c3e;
+  color: #fff;
 }
 
 footer .container {
@@ -255,16 +302,16 @@ footer .container {
 }
 
 footer a {
-  color: #FFF;
+  color: #fff;
 }
 
 footer a:hover {
   text-decoration: none;
-  color: #2E8DFA;
+  color: #2e8dfa;
 }
 
 footer hr {
-  border: .1rem solid #FFF;
+  border: 0.1rem solid #fff;
   margin: 0;
 }
 
@@ -274,6 +321,18 @@ footer h3 {
 
 footer p {
   font-size: 12px;
+}
+
+.video {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-popUp {
+  position: absolute;
+  top: -50%;
+  left: 0%;
 }
 
 @media screen and (max-width: 576px) {
