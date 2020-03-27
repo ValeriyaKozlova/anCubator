@@ -201,41 +201,54 @@ button {
 .modal-content {
   border-radius: 70px;
   padding: 1rem;
-}
-.form-control {
-  border: none;
-  border-bottom: 1px solid #000;
-  border-radius: 0;
-  margin: 0;
-}
-label {
-  color: #000;
-  opacity: 0.3;
-  font-style: italic;
-  font-size: 18px;
-  transform: translateY(20px);
-  transition: all 0.3s;
-  margin: 10px;
-}
-.label-focus {
-  color: $primaryColor;
-  opacity: 1;
-  transform: translateY(0);
-}
-.close {
-  span {
-    font-size: 35px;
-    font-weight: 400;
+  input {
+    padding: 3px 12px;
   }
+}
+form {
+  margin-bottom: 0;
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    margin: 0;
+  }
+  label {
+    color: #000;
+    opacity: 0.3;
+    font-style: italic;
+    font-size: 15px;
+    transform: translateY(20px);
+    transition: all 0.3s;
+    margin: 0 10px;
+  }
+  .label-focus {
+    color: $primaryColor;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.modal-body {
+  padding: 0 16px;
 }
 .modal-header {
   border: none;
   padding: 0;
+  position: relative;
   .modal-title {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     color: $primaryColor;
     padding: 0 16px;
+  }
+  .close {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    span {
+      font-size: 35px;
+      font-weight: 400;
+    }
   }
 }
 .buttonContact {
@@ -247,7 +260,7 @@ label {
 }
 .popUP {
   color: $colorFontPopUp;
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: 4px solid $colorFontPopUp;
   margin: 10px;
 }
@@ -261,7 +274,7 @@ label {
   margin: 0;
 }
 .video {
-  height: 230px;
+  height: 170px;
   overflow: hidden;
   position: relative;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
