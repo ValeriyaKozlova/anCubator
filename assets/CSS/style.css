@@ -191,7 +191,7 @@ button:hover {
 #offerBlock #notice {
   position: absolute;
   bottom: 0;
-  left: 15%;
+  left: 5%;
 }
 
 #offerBlock #notice div {
@@ -325,6 +325,11 @@ form .label-focus {
   outline: none;
 }
 
+#contact {
+  padding-bottom: 200px;
+  position: relative;
+}
+
 #contact p {
   font-weight: 100;
   font-size: 25px;
@@ -334,8 +339,14 @@ form .label-focus {
   margin-bottom: 0;
 }
 
+#contact #robot {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
 footer {
-  margin-top: 100px;
   background-color: #0a0c3e;
   color: #fff;
 }
@@ -382,9 +393,12 @@ footer p {
     font-size: 15px;
     border-bottom: 2px solid #ec1c24;
   }
+  #contact {
+    padding-bottom: 50px;
+  }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
   .headings,
   .thin,
   .bold {
@@ -397,6 +411,9 @@ footer p {
   }
   #containerTown .img {
     top: -40%;
+  }
+  #contact {
+    padding-bottom: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */

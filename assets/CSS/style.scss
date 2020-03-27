@@ -176,7 +176,7 @@ button {
   #notice {
     position: absolute;
     bottom: 0;
-    left: 15%;
+    left: 5%;
     div {
       margin: auto;
       padding: 0 5px;
@@ -290,6 +290,8 @@ form {
 }
 //CONTACT
 #contact {
+  padding-bottom: 200px;
+  position: relative;
   p {
     font-weight: 100;
     font-size: 25px;
@@ -297,11 +299,16 @@ form {
   h1 {
     margin-bottom: 0;
   }
+  #robot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+  }
 }
 
 //FOOTER
 footer {
-  margin-top: 100px;
   background-color: $footerColor;
   color: #fff;
   .container {
@@ -345,9 +352,12 @@ footer {
     font-size: 15px;
     border-bottom: 2px solid $colorFontPopUp;
   }
+  #contact {
+    padding-bottom: 50px;
+  }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
   .headings,
   .thin,
   .bold {
@@ -364,5 +374,8 @@ footer {
     .img {
       top: -40%;
     }
+  }
+  #contact {
+    padding-bottom: 150px;
   }
 }
