@@ -384,10 +384,15 @@ footer p {
     font-size: 2em;
   }
   .video {
-    height: 160px;
+    height: 130px;
   }
   .modal-header .modal-title {
-    font-size: 35px;
+    font-size: 25px;
+  }
+  .modal-header .close {
+    position: absolute;
+    top: 10%;
+    right: 15%;
   }
   .popUP {
     font-size: 15px;
