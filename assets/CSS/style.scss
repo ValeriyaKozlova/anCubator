@@ -94,6 +94,7 @@ button {
   }
 }
 #containerRocket {
+  position: relative;
   background-color: $primaryColor;
   padding: 0;
   p {
@@ -102,6 +103,26 @@ button {
   img {
     margin-left: -1px;
     margin-bottom: -1px;
+  }
+  .absolute {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    .rotateBack,
+    .rotate {
+      transform: rotate(45deg);
+      width: 20px;
+      border-bottom: 2px solid white;
+    }
+    .rotateBack {
+      transform: rotate(135deg);
+    }
+    .text {
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 34px;
+      margin: 10px;
+    }
   }
 }
 
@@ -138,9 +159,9 @@ button {
       padding: 0 10px;
     }
     .mainInfo {
-      color: $offerFontColor;
+      color: #000;
       font-weight: bold;
-      font-size: 24px;
+      font-size: 34px;
     }
     .border {
       border-bottom: 1px solid #000 !important;
@@ -266,6 +287,7 @@ form {
 }
 .buttonPopUp {
   width: 184px;
+  box-shadow: 0px 0px 80px rgba(30, 111, 241, 0.5);
 }
 .prototypeText {
   font-size: 18;
@@ -304,6 +326,9 @@ form {
     left: 0;
     bottom: 0;
     z-index: -100;
+  }
+  .buttonPopUp {
+    box-shadow: none;
   }
 }
 
@@ -363,8 +388,18 @@ footer {
       font-size: 20px;
     }
   }
+  #containerRocket {
+    .absolute {
+      right: 0;
+      bottom: 10%;
+      .text {
+        font-size: 18px;
+        margin: 3px;
+        line-height: 25px;
+      }
+    }
+  }
 }
-
 @media screen and (min-width: 576px) and (max-width: 1024px) {
   .headings,
   .thin,
@@ -385,5 +420,15 @@ footer {
   }
   #contact {
     padding-bottom: 150px;
+  }
+  #containerRocket {
+    .absolute {
+      right: 0;
+      bottom: 15%;
+      .text {
+        font-size: 25px;
+        margin: 5px;
+      }
+    }
   }
 }
