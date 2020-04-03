@@ -36,6 +36,10 @@ body {
   width: 200px;
 }
 
+.error {
+  color: red;
+}
+
 .button,
 button {
   color: #fff;

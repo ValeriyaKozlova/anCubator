@@ -251,6 +251,7 @@
                           <label for="idea-EMAIL"
                             >Email Address <span class="asterisk">*</span>
                           </label>
+                          <!-- <span>Hello</span> -->
                           <input
                             type="email"
                             value=""
@@ -267,7 +268,7 @@
                             type="text"
                             value=""
                             name="FNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="idea-FNAME"
                           />
                         </div>
@@ -279,7 +280,7 @@
                             type="text"
                             value=""
                             name="LNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="idea-LNAME"
                           />
                         </div>
@@ -290,7 +291,7 @@
                           <input
                             type="text"
                             name="PHONE"
-                            class="required form-control"
+                            class="required form-control phone"
                             value=""
                             id="idea-PHONE"
                           />
@@ -444,7 +445,7 @@
                             type="text"
                             value=""
                             name="FNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="prototype-FNAME"
                           />
                         </div>
@@ -456,7 +457,7 @@
                             type="text"
                             value=""
                             name="LNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="prototype-LNAME"
                           />
                         </div>
@@ -467,7 +468,7 @@
                           <input
                             type="text"
                             name="PHONE"
-                            class="required form-control"
+                            class="required form-control phone"
                             value=""
                             id="prototype-PHONE"
                           />
@@ -648,7 +649,7 @@
                             type="text"
                             value=""
                             name="FNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="startUp-FNAME"
                           />
                         </div>
@@ -660,7 +661,7 @@
                             type="text"
                             value=""
                             name="LNAME"
-                            class="required form-control"
+                            class="required form-control name"
                             id="startUp-LNAME"
                           />
                         </div>
@@ -671,7 +672,7 @@
                           <input
                             type="text"
                             name="PHONE"
-                            class="required form-control"
+                            class="required form-control phone"
                             value=""
                             id="startUp-PHONE"
                           />
@@ -776,9 +777,12 @@
           >
             <div id="mc_embed_signup_scroll_contact">
               <div class="mc-field-group">
-                <label for="contact-EMAIL"
+                <div class="d-flex justify-content-between">
+                  <label for="contact-EMAIL"
                   >Email Address <span class="asterisk">*</span>
                 </label>
+                <span class="emailError error"></span>
+                </div>
                 <input
                   type="email"
                   value=""
@@ -788,37 +792,46 @@
                 />
               </div>
               <div class="mc-field-group">
+                <div class="d-flex justify-content-between">
                 <label for="contact-FNAME"
                   >First Name <span class="asterisk">*</span>
                 </label>
+                <span class="firstNameError error"></span>
+                </div>
                 <input
                   type="text"
                   value=""
                   name="FNAME"
-                  class="required form-control"
+                  class="required form-control name"
                   id="contact-FNAME"
                 />
               </div>
               <div class="mc-field-group">
+                <div class="d-flex justify-content-between">
                 <label for="contact-LNAME"
                   >Last Name <span class="asterisk">*</span>
                 </label>
+                <span class="lastNameError error"></span>
+              </div>
                 <input
                   type="text"
                   value=""
                   name="LNAME"
-                  class="required form-control"
+                  class="required form-control name"
                   id="contact-LNAME"
                 />
               </div>
               <div class="mc-field-group size1of2">
+                <div class="d-flex justify-content-between">
                 <label for="contact-PHONE"
                   >Phone Number <span class="asterisk">*</span>
                 </label>
+                <span class="phoneError error"></span>
+              </div>
                 <input
                   type="text"
                   name="PHONE"
-                  class="required form-control"
+                  class="required form-control phone"
                   value=""
                   id="contact-PHONE"
                 />
