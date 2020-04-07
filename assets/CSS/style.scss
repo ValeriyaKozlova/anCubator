@@ -8,6 +8,7 @@ $offerTvaColor: #676767;
 $footerColor: #0a0c3e;
 $hoverColor: #2e8dfa;
 $colorFontPopUp: #ec1c24;
+$colorHeaderOffers: #061E38;
 
 body {
   font-family: "Roboto", sans-serif !important;
@@ -83,6 +84,7 @@ button {
     position: absolute;
     top: -10%;
     left: 30%;
+    z-index: 10;
   }
   .text {
     margin: 16px 0px;
@@ -154,16 +156,17 @@ button {
       margin-top: 3rem;
       margin-bottom: 0;
     }
-    h1 {
+    h2 {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 0;
       padding: 0 10px;
     }
     .mainInfo {
-      color: #000;
+      color: $colorHeaderOffers;
       font-weight: bold;
       font-size: 34px;
+      margin: 3.1rem 0;
     }
     .border {
       border-bottom: 1px solid #000 !important;
@@ -297,6 +300,7 @@ form {
   opacity: 0.6;
   margin: 0;
 }
+.video-town,
 .video {
   height: 170px;
   overflow: hidden;
@@ -311,6 +315,15 @@ form {
   left: 0%;
   border: none;
   outline: none;
+}
+.video-town {
+  height: 300px;
+    video {
+      position: absolute;
+      width: 100%;
+      bottom: -20%;
+      left: 0;
+    }
 }
 //CONTACT
 #contact {
@@ -405,8 +418,20 @@ footer {
     font-size: 10px;
     margin-top: 2px;
   }
+  #containerTown {
+    .img {
+      top: 0;
+    }
+  }
+  .offer {
+    .info {
+      .mainInfo {
+        margin: 2.1rem 0;
+      }
+    }
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 1024px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .headings,
   .thin,
   .bold {
@@ -421,7 +446,7 @@ footer {
   }
   #containerTown {
     .img {
-      top: -40%;
+      top: -15%;
     }
   }
   #contact {
@@ -436,5 +461,8 @@ footer {
         margin: 5px;
       }
     }
+  }
+  .video-town {
+    height: 170px;
   }
 }

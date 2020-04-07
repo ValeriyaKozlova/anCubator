@@ -109,19 +109,21 @@
           class="col-md-4 col-12 d-flex flex-column align-self-end"
           id="containerTown"
         >
-          <div class="embed-responsive embed-responsive-16by9">
+          <div>
             <div class="img">
-              <img src="assets/img/arrow.png" alt="arrow" />
+              <img src="assets/img/arrow.png" class="img-fluid" alt="arrow" />
             </div>
-            <lottie-player
-              src="https://assets1.lottiefiles.com/packages/lf20_UExBCF.json"
-              background="transparent"
-              speed="1"
-              loop
-              autoplay
-              class="embed-responsive-item"
-            >
-            </lottie-player>
+            <div class="video-town">
+              <video
+                loop
+                autoplay
+                muted
+                playsinline
+              >
+                <source src="assets/img/18063-animated-city-white.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              </div>
           </div>
           <div class="text">
             <h2>From zero to hero</h2>
@@ -173,10 +175,10 @@
         <div class="col-12 col-md-4 mb-2 mt-2">
           <div class="col-lg-10 offer p-3">
             <div class="info">
-              <h1 class="mainInfo mb-4 text-center">IDEA</h1>
+              <h1 class="mainInfo text-center">IDEA</h1>
               <div class="border"></div>
-              <h1>Value</h1>
-              <h1>Proposition</h1>
+              <h2>Value</h2>
+              <h2>Proposition</h2>
               <span class="mb-3">From Idea to Value Proposition</span>
               <p class="time">Time process 1-2 months</p>
               <button
@@ -359,10 +361,10 @@
         <div class="col-12 col-md-4 mb-2 mt-2">
           <div class="col-lg-10 offer p-3">
             <div class="info">
-              <p class="mainInfo mb-4 text-center">MVP</p>
+              <p class="mainInfo text-center">MVP</p>
               <div class="border"></div>
-              <h1>Prototype</h1>
-              <h1>Development</h1>
+              <h2>Prototype</h2>
+              <h2>Development</h2>
               <span class="mb-3">Mobile App, Web Services or Hardware</span>
               <p class="time">Time process 3-6 months</p>
               <button
@@ -556,10 +558,10 @@
         <div class="col-12 col-md-4 mb-2 mt-2">
           <div class="col-lg-10 offer p-3">
             <div class="info">
-              <p class="mainInfo mb-4 text-center">STARTUP</p>
+              <p class="mainInfo text-center">STARTUP</p>
               <div class="border"></div>
-              <h1>StartUp</h1>
-              <h1>Development</h1>
+              <h2>StartUp</h2>
+              <h2>Development</h2>
               <span>From Idea to a Funtional Product and First customers</span>
               <p class="time">Time process 1-6 months</p>
               <button
@@ -1007,8 +1009,6 @@
         </div>
       </div>
     </footer>
-    <!-- ANIMATION -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <!-- BOOTSTRAP SCRIPT -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

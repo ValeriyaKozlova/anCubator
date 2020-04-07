@@ -85,6 +85,7 @@ button:hover {
   position: absolute;
   top: -10%;
   left: 30%;
+  z-index: 10;
 }
 
 #containerTown .text {
@@ -169,7 +170,7 @@ button:hover {
   margin-bottom: 0;
 }
 
-.offer .info h1 {
+.offer .info h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 0;
@@ -177,9 +178,10 @@ button:hover {
 }
 
 .offer .info .mainInfo {
-  color: #000;
+  color: #061E38;
   font-weight: bold;
   font-size: 34px;
+  margin: 3.1rem 0;
 }
 
 .offer .info .border {
@@ -341,6 +343,7 @@ form .label-focus {
   margin: 0;
 }
 
+.video-town,
 .video {
   height: 170px;
   overflow: hidden;
@@ -356,6 +359,17 @@ form .label-focus {
   left: 0%;
   border: none;
   outline: none;
+}
+
+.video-town {
+  height: 300px;
+}
+
+.video-town video {
+  position: absolute;
+  width: 100%;
+  bottom: -20%;
+  left: 0;
 }
 
 #contact {
@@ -455,9 +469,15 @@ footer p {
     font-size: 10px;
     margin-top: 2px;
   }
+  #containerTown .img {
+    top: 0;
+  }
+  .offer .info .mainInfo {
+    margin: 2.1rem 0;
+  }
 }
 
-@media screen and (min-width: 576px) and (max-width: 1024px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .headings,
   .thin,
   .bold {
@@ -469,7 +489,7 @@ footer p {
     font-size: 20px;
   }
   #containerTown .img {
-    top: -40%;
+    top: -15%;
   }
   #contact {
     padding-bottom: 150px;
@@ -481,6 +501,9 @@ footer p {
   #containerRocket .absolute .text {
     font-size: 25px;
     margin: 5px;
+  }
+  .video-town {
+    height: 170px;
   }
 }
 /*# sourceMappingURL=style.css.map */
