@@ -430,10 +430,12 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
-  .headings,
+  .headings {
+    font-size: 2em;
+  }
   .thin,
   .bold {
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .video {
     height: 130px;
@@ -478,10 +480,12 @@ footer p {
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .headings,
+  .headings {
+    font-size: 3em;
+  }
   .thin,
   .bold {
-    font-size: 3em;
+    font-size: 2.1em;
   }
   #offerBlock #notice {
     left: 0%;
