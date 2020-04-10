@@ -61,10 +61,13 @@ button {
     color: $hoverColor;
   }
 }
+.mainHeading {
+  margin-left: 2em;
+}
 .headings,
 .thin,
 .bold {
-  font-size: 4em;
+  font-size: 4.2em;
   color: #fff;
 }
 .bold {
@@ -378,9 +381,12 @@ footer {
   .headings {
     font-size: 2em;
   }
+  .mainHeading {
+    margin-left: 1em;
+  }
   .thin,
   .bold {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   .video {
     height: 130px;

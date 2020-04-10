@@ -59,10 +59,14 @@ button:hover {
   color: #2e8dfa;
 }
 
+.mainHeading {
+  margin-left: 2em;
+}
+
 .headings,
 .thin,
 .bold {
-  font-size: 4em;
+  font-size: 4.2em;
   color: #fff;
 }
 
@@ -433,9 +437,12 @@ footer p {
   .headings {
     font-size: 2em;
   }
+  .mainHeading {
+    margin-left: 1em;
+  }
   .thin,
   .bold {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   .video {
     height: 130px;
